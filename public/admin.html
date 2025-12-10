@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="box" id="loginBox">
+  <h2>Admin Login</h2>
+  <input id="pass" placeholder="Password" type="password" />
+  <button onclick="adminLogin()">Login</button>
+</div>
+
+<div class="box" id="panel" style="display:none;">
+  <h2>Set Zoom Link</h2>
+  <input id="zoom" placeholder="Zoom Link" />
+  <button onclick="setZoom()">Save</button>
+
+  <br><br>
+  <h3>Add Authorized Email</h3>
+  <input id="authEmail" placeholder="Email" />
+  <button onclick="addEmail()">Add</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
